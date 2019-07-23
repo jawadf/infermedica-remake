@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+h4 {
+    color: $color-heading;
+    line-height: 1.1;
+}
+
+
+h1 {
+    font-weight: 900;
+    font-size: 5rem;   
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.4rem; 
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+.uppercase-gray-heading {
+    color: #8f9fb9;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4rem;
+    
+}
+
+
+p[class^="p--"] {
+    color: $color-paragraph;
+}
+
+.p--regular {
+    font-size: 1.9rem;
+    line-height: 1.5;
+}
+
+.p--large {
+    font-size: 2.4rem;
+    line-height: 1.5;
+}
